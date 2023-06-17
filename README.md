@@ -4,6 +4,8 @@
 ## Rotating AWS Access Keys
 
 
+%
+
 Executing `terraform state list` will return the resources that are being managed by the terraform (are on the remote state)
 ```
     module.iam-rotation-key.aws_iam_access_key.access_key
